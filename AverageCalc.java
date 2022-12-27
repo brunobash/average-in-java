@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
-public class Media {
+public class AverageCalc {
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("		--- AVERAGE CALCULATOR ---		");
-		System.out.println("How many number do you want to calculate? ");
+		System.out.println("How many number do you want to calculate?");
 		double n = Double.parseDouble(input.nextLine());
 
 		double sum = 0; // store the number's sum
